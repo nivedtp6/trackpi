@@ -1,0 +1,132 @@
+.home-container {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f6f8;
+  }
+  
+  .content-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-col {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-heading {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  .subheading {
+    font-size: 1.5em;
+    color: #666;
+    margin-top: 10px;
+    animation: fadeInUp 1.2s ease-out;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    animation: fadeInUp 1.4s ease-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-col {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .illustration {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-out;
+  }
+  
+  .text-bubble {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+    animation: bounceIn 1.5s ease-out;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .custom-card {
+    width: 18rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

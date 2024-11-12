@@ -1,0 +1,42 @@
+.footer-head {
+    background-color: #000; 
+    color: #f1f1f1; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-head h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-head p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons svg {
+    color: #f1f1f1; 
+    transition: color 0.3s ease;
+  }
+  
+  .footer-icons svg:hover {
+    color: #3498db; 
+  }
+  
+  .footer-last {
+    font-size: 14px;
+    color: #b5b5b5; 
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+  
